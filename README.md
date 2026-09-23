@@ -1,16 +1,55 @@
-# React + Vite
+# Sai Shyam Achari - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+![Portfolio Preview](https://img.shields.io/badge/Status-Live-success)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=flat&logo=framer&logoColor=blue)
 
-Currently, two official plugins are available:
+A modern, interactive, and fully responsive personal portfolio built to showcase my projects, skills, and education. Features a clean dual-theme (Light/Dark mode) aesthetic, smooth scroll animations, and dynamic skill grids.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- **Light & Dark Mode**: Seamlessly toggle between a pure white and pure black aesthetic.
+- **Dynamic Projects Showcase**: Highlights my best work, including full-stack web apps and machine learning models.
+- **Interactive Animations**: Built with Framer Motion for smooth page transitions and scroll reveals.
+- **Modern Tech Stack**: Fast and optimized using Vite, React, and Tailwind CSS.
+- **Responsive Design**: Looks great on all devices (mobile, tablet, desktop).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the Oxlint configuration
+- [React.js](https://reactjs.org/) - Frontend Library
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation Library
+- [Lucide React](https://lucide.dev/) - Beautiful, consistent icons
+- [Skillicons](https://skillicons.dev/) - Dynamic skill badges
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 💻 Running Locally
+
+If you want to run this project on your local machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sai-shyamachari/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   The site will be available at `http://localhost:5173/`
+
+## 📬 Contact Me
+
+- **Email**: [saishyamachari@gmail.com](mailto:saishyamachari@gmail.com)
+- **LinkedIn**: [sai-shyam-achari](https://linkedin.com/in/sai-shyam-achari)
+- **GitHub**: [@sai-shyamachari](https://github.com/sai-shyamachari)
+
+---
+*Designed and built with ❤️ by Sai Shyam Achari.*
