@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #eab308; /* A nice gold/yellow to match the education screenshot */
+  --color-dark: #111111;
+  --color-light: #ffffff;
+  --color-card: #f9fafb;
+  --color-card-border: #e5e7eb;
+  --color-text-muted: #6b7280;
+  --color-text-main: #111827;
+}
+
+/* Dark mode overrides */
+.dark {
+  --color-primary: #eab308;
+  --color-dark: #ffffff;
+  --color-light: #000000;
+  --color-card: #111111;
+  --color-card-border: #333333;
+  --color-text-muted: #9ca3af;
+  --color-text-main: #f9fafb;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-light);
+    color: var(--color-text-main);
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
+
+@layer utilities {
+  .font-script {
+    font-family: 'Caveat', cursive;
+  }
+
+  .blob-shape {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    animation: morph 12s ease-in-out infinite;
+  }
+
+  /* Subtler morphing */
+  @keyframes morph {
+    0% { border-radius: 55% 45% 50% 50% / 50% 55% 45% 50%; }
+    50% { border-radius: 45% 55% 55% 45% / 55% 45% 55% 45%; }
+    100% { border-radius: 55% 45% 50% 50% / 50% 55% 45% 50%; }
+  }
+
+  .typing-cursor {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+}
