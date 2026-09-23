@@ -43,7 +43,7 @@ If you want to run this project on your local machine:
    ```bash
    npm run dev
    ```
-   The site will be available at `(https://my-portfolio-nu-vert-50.vercel.app/)`
+   The site will be available at `https://my-portfolio-nu-vert-50.vercel.app/`
 
 ## 📬 Contact Me
 
